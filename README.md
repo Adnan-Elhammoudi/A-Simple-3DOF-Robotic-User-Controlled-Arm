@@ -2,7 +2,7 @@
 
 
 
-Simple Arm project that helps in industrial fields, which is built using three hobby servo motors. Each has its own range of angles to rotate within. The desired angle of these motors depends on the PWM Signals. LCD used to show the angles of these motors. In Robotic Arm project written in Assembly Language, and for hardware implimantaton we used Proteus simulation.
+Simple Arm project that helps in industrial fields, which is built using three hobby servo motors. Each has its own range of angles to rotate within. The desired angle of these motors depends on the PWM Signals. LCD used to show the angles of these motors. In Robotic Arm project written in PIC16f877a Assembly Language, and for hardware implimantaton we used Proteus simulation.
 
 
 System Description
