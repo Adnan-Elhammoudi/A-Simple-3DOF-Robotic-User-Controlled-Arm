@@ -17,7 +17,8 @@ System Description
   minimum extreme value, and so for the maximum pulse, it moves the motor’s angle to its maximum extreme value. As depicted in Figure 1, the minimum Control pulse is    1ms, and the maximum Control pulse is 3.0279ms.
   
 ![image](https://user-images.githubusercontent.com/97694540/161567740-599540f5-d774-416e-88d2-a5d842b7e26a.png)
-  Figure 1
+                                           Figure 1
+  
   
  Regarding the code, depending on the content of ADRESH register, we generated the related pulse to move the motors relatively. Then, we clear the rest of the 20ms time period.
 Now, in regards of the LCD part, we used an equation that represents the angle of each motor, depending on ADRESH, maximum angle of the motor, and minimum angle of the motor.
